@@ -1,0 +1,114 @@
+avg 10 runs
+
+sentences_list_shuffled_tagged_topics_1_train
+94
+13
+27
+54
+MultinomialNB
+0.5221750585480093
+LogisticRegression
+0.5477849336455893
+RandomForestClassifier
+0.5322688979963569
+LogisticRegression balanced
+0.5925513921415562
+RandomForestClassifier balanced
+0.5163910031225605
+bert
+[0.5957446808510638, 0.6702127659574468, 0.6382978723404256, 0.6276595744680851, 0.6702127659574468, 0.648936170212766, 0.4148936170212766, 0.5531914893617021, 0.6914893617021277, 0.6063829787234043]
+0.6117021276595744
+
+
+sentences_list_shuffled_tagged_topics_2_train
+132
+74
+36
+22
+MultinomialNB
+0.5167221654749746
+LogisticRegression
+0.61085291113381
+RandomForestClassifier
+0.5994126659856998
+LogisticRegression balanced
+0.6469356486210418
+RandomForestClassifier balanced
+0.617364657814096
+bert 
+[0.696969696969697, 0.6363636363636364, 0.5833333333333334, 0.6742424242424242, 0.553030303030303, 0.6363636363636364, 0.6742424242424242, 0.49242424242424243, 0.5909090909090909, 0.6666666666666666]
+0.6204545454545455
+
+
+sentences_list_shuffled_tagged_topics_3_train
+104
+33
+29
+42
+MultinomialNB
+0.5545449165581725
+LogisticRegression
+0.5484578056574743
+RandomForestClassifier
+0.5346691916203101
+LogisticRegression balanced
+0.5547129837850633
+RandomForestClassifier balanced
+0.5292436974789916
+bert
+[0.5192307692307693, 0.4807692307692308, 0.6057692307692307, 0.4519230769230769, 0.5480769230769231, 0.49038461538461536, 0.5576923076923077, 0.4423076923076923, 0.5, 0.5865384615384616]
+0.5182692307692307
+
+
+10 folds CV
+sentences_list_shuffled_tagged_topics_1
+56
+104
+154
+MultinomialNB
+accuracy 0.5161290322580646
+LogisticRegression
+accuracy 0.5516129032258065
+RandomForestClassifier
+accuracy 0.5451612903225806
+LogisticRegression balanced
+accuracy 0.5838709677419356
+RandomForestClassifier balanced
+accuracy 0.5483870967741936
+bert 
+accuracy 0.6064516129032258
+
+
+sentences_list_shuffled_tagged_topics_2
+240
+130
+72
+MultinomialNB
+accuracy 0.6
+LogisticRegression
+accuracy 0.6068181818181818
+RandomForestClassifier
+accuracy 0.6272727272727272
+LogisticRegression balanced
+accuracy 0.6295454545454546
+RandomForestClassifier balanced
+accuracy 0.6113636363636363
+bert 
+accuracy 0.6590909090909091
+
+sentences_list_shuffled_tagged_topics_3
+142
+103
+103
+MultinomialNB
+accuracy 0.5352941176470589
+LogisticRegression
+accuracy 0.5470588235294118
+RandomForestClassifier
+accuracy 0.5088235294117649
+LogisticRegression balanced
+accuracy 0.5764705882352941
+RandomForestClassifier balanced
+accuracy 0.5
+bert
+accuracy 0.5735294117647058
